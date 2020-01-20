@@ -1,8 +1,23 @@
 import React from 'react';
-import {Text} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 
 const Dashboard = () => {
-  return <Text>Dashboard</Text>;
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}>Dashboard</Text>
+    </View>
+  );
 };
-
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  title: {
+    fontFamily: 'ABeeZeeRegular',
+    fontSize: 25,
+  },
+});
 export default Dashboard;
