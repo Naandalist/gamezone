@@ -1,6 +1,6 @@
 # gamezone
 
-## The Riviews App
+## The Reviews App
 
 Application structure is below:
 
